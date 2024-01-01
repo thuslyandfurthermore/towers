@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7d5e5;
+  color: #602844;
+}
+
+h1{
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+}
+
+canvas {
+  width: 100%;
+}
+
+#controls {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+}
+
+button {
+  flex-grow: 1;
+  height: 4em;
+  margin: 0 1% 0 1%;
+  background-color: #602844;
+  color: #f7d5e5;
+  border-color: #602844;
+}
+
+select {
+  background-color: #602844;
+  color: #f7d5e5;
+  height: 2em;
+}
